@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    style="@style/scrollbar_shape_style"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".telangana.komaram.places.Ganagapur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:id="@+id/back3"
+            android:layout_width="30dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_drop_down_24"
+            android:layout_marginTop="28dp"
+            android:transitionName="@string/pressed4"
+            android:elevation="30dp"
+            android:layout_marginStart="10dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:layout_height="30dp"
+            tools:ignore="VectorDrawableCompat"
+            android:layout_marginLeft="40dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Ganagapur Temple "
+            android:textColor="#123"
+            android:layout_marginStart="60dp"
+            android:elevation="3dp"
+            android:layout_marginEnd="60dp"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="-40sp"
+            android:textAlignment="center"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+        <AdapterViewFlipper
+            android:id="@+id/adpterview"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="20dp"
+            android:transitionName="@string/kawaliflipper"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            tools:targetApi="lollipop">
+
+        </AdapterViewFlipper>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="History:"
+            android:textColor="#123"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textSize="17dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_height="200dp">
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:text="A Unique Mythological Awareness CentreThis is a creation of creations, for the first time in India, and perhaps the very first of its kind in the world, to create an amazing agglomeration of mythological wonders, all at one divine destination. Kunda Satyanarayana Kala Dhamam transports you into a new world of joy, with the exhilarating boon of a vision of all deities, Gods and Goddesses in one spectacular mythological awareness centre. …SURENDRAPURI. Never perhaps in the history, have we come across such a colossal achievement towards enriching mythologicalThe ancient Sri Balaji Venkateshwara Swamy Devasthanam of Gangapur village in Rebbana mandal is being spruced up for the three-day-long annual Jathara in every year.
+
+13th century temple
+
+The Balaji temple is one of the major pilgrim centres of this district and it is believed to have been built on the picturesque shores of a rivulet and on outskirts of Gangapur in the 13th century. Situated five kilometres away from the mandal centre, devotees visit the temple for worshiping the deity on full moon day of the sacred month of Magha in the Hindu calendar year.
+
+According to legend, Mummadi Pothaji, a staunch devotee of Lord Venkateswara Swamy used to visit Tirumala every year and offer prayers. One year, Pothaji could not visit Tirumala owing to an ailment and old age was depressed over his inability to take up the pilgrimage. Lord Balaji then appeared in Pothaji’s dream and told him that he (Lord) could be spotted inside a hillock if he drills it. Accordingly, Pothaji managed to make a hole in the rocky hillock using a crowbar and after a while found an idol of the Lord. He used to worship the idol and perform special prayers on every full moon day of Magha.
+
+Later, rulers of the Kakatiya dynasty visited the temple and installed an idol of goddess Padmavati and built a holy pond in front of the temple in the 16th century. However, the pond vanished over the centuries. But, the crowbar can still be noticed atop the shrine.
+
+"
+                    android:textColor="#123"
+                    android:textAlignment="textStart"
+                    android:layout_height="wrap_content"
+                    android:gravity="start">
+
+                </TextView>
+
+            </ScrollView>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/direction"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/states"
+                android:backgroundTint="@color/white1"
+                android:elevation="20dp"
+                app:srcCompat="@drawable/ic_baseline_directions_24"
+                tools:ignore="VectorDrawableCompat"
+                tools:targetApi="lollipop">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/hotels"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/states"
+                android:backgroundTint="@color/white1"
+                android:elevation="20sp"
+                android:transitionName="@string/pressed4"
+                app:srcCompat="@drawable/ic_baseline_house_24"
+                tools:ignore="VectorDrawableCompat">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/states"
+                android:backgroundTint="@color/white1"
+                android:elevation="20sp"
+                android:paddingRight="5dp"
+                app:srcCompat="@drawable/ic_baseline_share_24"
+                tools:ignore="VectorDrawableCompat">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Details:"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#123"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Weather : 40° C"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#123"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Timings :Closed now9:00 AM - 5:30 PM"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#123"
+            android:textSize="17dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="2-3 hours"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#123"
+            android:textSize="17dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Entry Fee : Price varies according to Safari package chosen."
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#123"
+            android:textSize="17dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/hotel"
+            android:text="Gallery:"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#123"
+            android:layout_marginTop="10dp"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="start">
+
+        </TextView>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/viewpager"
+            android:layout_height="300dp">
+        </androidx.viewpager.widget.ViewPager>
+
+
+
+
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_above="@id/continues"
+            android:id="@+id/viewpager1"
+            android:layout_height="300dp">
+        </androidx.viewpager.widget.ViewPager>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

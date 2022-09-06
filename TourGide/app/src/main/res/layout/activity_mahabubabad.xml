@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    style="@style/scrollbar_shape_style"
+    android:layout_height="match_parent"
+    tools:context=".telangana.mahabubabad.Mahabubabad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/back2"
+            android:layout_width="30dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginTop="34dp"
+            android:transitionName="@string/pressed3"
+            android:layout_marginStart="10dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:layout_height="30dp"
+            tools:ignore="VectorDrawableCompat"
+            android:layout_marginLeft="40dp">
+
+        </ImageView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:textColor="#123"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="-34dp"
+            android:textAlignment="center"
+            android:elevation="3dp"
+            android:shadowColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Mahabubabada"
+            android:layout_marginStart="55dp"
+            android:layout_marginEnd="45dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+        <AdapterViewFlipper
+            android:id="@+id/adpterview"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:transitionName="@string/pressed2"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp">
+
+        </AdapterViewFlipper>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Places"
+            android:textColor="#123"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/states"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="1sp"
+            android:layout_marginBottom="10dp"
+            android:transitionName="@string/pressed5"
+            android:background="@drawable/states">
+
+
+            <ImageView
+                android:id="@+id/yadadri"
+                android:layout_width="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/swamy1">
+
+            </ImageView>
+
+
+            <TextView
+
+                android:layout_width="151dp"
+                android:layout_height="109dp"
+                android:layout_gravity="start"
+                android:paddingTop="30dp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="70dp"
+                android:text="Kuravi Veerabhadra Swamy Temple"
+                android:textAlignment="viewStart"
+                android:textColor="#123"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="1sp"
+            android:layout_marginBottom="10dp"
+            android:transitionName="@string/pressed5"
+            android:background="@drawable/states">
+
+
+            <ImageView
+                android:id="@+id/surendrapuri"
+                android:layout_width="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bheemuni1">
+
+            </ImageView>
+
+
+            <TextView
+
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="bheemuni paadam waterfalls"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="20sp"
+                android:textAlignment="viewStart"
+                android:textColor="#123"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

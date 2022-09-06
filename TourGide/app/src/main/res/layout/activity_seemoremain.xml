@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seemoremain">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center_horizontal"
+        android:text="select category"
+        android:transitionName="@string/slide1"
+        android:textAlignment="center"
+        android:textColor="#123"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="156dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/catimage1"
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/temple"
+            android:background="@drawable/states"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Wildlife"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/catimage3"
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/lakes"
+            android:background="@drawable/states"
+            android:paddingTop="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="6dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="lakes"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/catimage5"
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/forest"
+            android:background="@drawable/states"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Forest"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="13dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/catimage7"
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/fort"
+            android:background="@drawable/states"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Fort"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/catimage9"
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/hills"
+            android:background="@drawable/states"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Hills"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="156dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+
+        <ImageView
+            android:id="@+id/catimage2"
+            android:layout_width="60dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            app:srcCompat="@drawable/wildlife1"
+            android:background="@drawable/states"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Temple"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+
+        <ImageView
+            android:id="@+id/catimage4"
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/dam1"
+            android:background="@drawable/states"
+            android:paddingTop="20dp"
+            android:paddingBottom="6dp"
+            android:paddingStart="6dp"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="6dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Dams"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/catimage6"
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/waterfalls"
+            android:background="@drawable/states"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="waterfall"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/catimage8"
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/park"
+            android:background="@drawable/states"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Park"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+
+        <ImageView
+            android:id="@+id/catimage10"
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/museum"
+            android:background="@drawable/states"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Museum"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        tools:ignore="ContentDescription,VectorDrawableCompat"
+        android:contentDescription="TODO" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

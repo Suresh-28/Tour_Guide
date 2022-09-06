@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="scrollbar_shape_style">
+
+        <item name="android:scrollbarAlwaysDrawVerticalTrack"
+            tools:ignore="DuplicateDefinition">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/vertical_scroll_thumb</item>
+        <item name="android:scrollbarThumbVertical"
+            tools:ignore="DuplicateDefinition">@drawable/vertical_scroll_track</item>
+        <item name="android:scrollbarSize">12dp</item>
+        <item name="android:fadeDuration">1000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+
+
+    </style>
+
+
+    <style name="back_pressed">
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+    </style>
+</resources>

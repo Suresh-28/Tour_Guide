@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/states"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:background="@drawable/ic_baseline_clear_24"
+        android:paddingRight="5dp"
+        android:layout_marginTop="130dp"
+        android:textSize="18sp"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/map_background" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="-30dp"
+        android:layout_below="@id/textView15"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp">
+
+        <ImageView
+            android:id="@+id/catimage1"
+            android:layout_width="50dp"
+            app:srcCompat="@drawable/ic_baseline_settings_24"
+            android:background="@drawable/states"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingStart="6dp"
+            android:layout_marginStart="20sp"
+            android:paddingEnd="6dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="VectorDrawableCompat">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/catimage2"
+            android:layout_width="50dp"
+            android:paddingStart="6dp"
+            android:layout_marginStart="10dp"
+            android:paddingEnd="6dp"
+            app:srcCompat="@drawable/ic_baseline_info_24"
+            android:background="@drawable/states"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="VectorDrawableCompat">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/catimage3"
+            android:layout_width="50dp"
+            app:srcCompat="@drawable/ic_baseline_share_24"
+            android:background="@drawable/states"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_marginStart="10dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="VectorDrawableCompat">
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

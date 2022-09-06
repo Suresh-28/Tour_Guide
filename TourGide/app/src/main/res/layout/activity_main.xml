@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/logo1"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
+
+
+
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#EBEFF4"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"
+        android:text="Category"
+        android:layout_marginTop="140dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/seemore"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#D6D2D2"
+        android:textStyle="bold"
+        android:textAlignment="viewEnd"
+        android:layout_marginEnd="37sp"
+        android:layout_marginStart="45dp"
+        android:transitionName="@string/slide2"
+        android:text="See more"
+        android:layout_marginTop="140dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="end"
+        android:layout_marginRight="20sp">
+
+    </TextView>
+
+
+
+    <HorizontalScrollView
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="5dp"
+        android:layout_marginTop="165dp"
+        android:fitsSystemWindows="true"
+        android:layout_marginEnd="1dp"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingEnd="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/catimage1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/states"
+            android:paddingStart="6dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="6dp"
+            app:srcCompat="@drawable/temple">
+
+        </ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:textColor="#123"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:layout_marginEnd="30sp"
+                android:layout_marginStart="-50dp"
+                android:text="Temple"
+                android:paddingBottom="5dp"
+                android:elevation="3dp"
+                android:layout_marginTop="64dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20sp"
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+
+        <ImageView
+            android:id="@+id/catimage2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/states"
+            android:paddingStart="6dp"
+            android:layout_marginStart="-10dp"
+            android:paddingEnd="6dp"
+            app:srcCompat="@drawable/wildlife1">
+
+        </ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:textColor="#123"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:elevation="3dp"
+                android:paddingBottom="5dp"
+                android:layout_marginEnd="30sp"
+                android:layout_marginStart="-51dp"
+                android:text="@string/wildlife"
+                android:layout_marginTop="64dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="end"
+                android:layout_marginRight="20sp"
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+            <ImageView
+            android:id="@+id/catimage3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/states"
+            android:paddingStart="6dp"
+            android:paddingTop="6dp"
+                android:layout_marginStart="-10dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="6dp"
+            app:srcCompat="@drawable/lakes">
+
+        </ImageView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:textColor="#123"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:layout_marginEnd="30sp"
+                android:elevation="3dp"
+                android:paddingBottom="5dp"
+                android:layout_marginStart="-46dp"
+                android:text="Lakes"
+                android:layout_marginTop="64dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="end"
+                android:layout_marginRight="20sp"
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+        <ImageView
+            android:id="@+id/catimage4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/states"
+            android:paddingStart="6dp"
+            android:paddingTop="6dp"
+            android:layout_marginStart="-10dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="6dp"
+            app:srcCompat="@drawable/dam1">
+
+        </ImageView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:textColor="#123"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:layout_marginEnd="30sp"
+                android:layout_marginStart="-44dp"
+                android:paddingBottom="5dp"
+                android:text="Dams"
+                android:layout_marginTop="64dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="end"
+                android:layout_marginRight="20sp"
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+        <ImageView
+            android:id="@+id/catimage5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/states"
+            android:paddingStart="6dp"
+            android:paddingTop="6dp"
+            android:layout_marginStart="-10dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="6dp"
+            app:srcCompat="@drawable/forest"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:textColor="#123"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:layout_marginEnd="30sp"
+                android:layout_marginStart="-50dp"
+                android:text="Forest"
+                android:layout_marginTop="64dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="end"
+                android:layout_marginRight="20sp"
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+
+
+
+            <ImageView
+                android:id="@+id/catimage6"
+                android:layout_width="60dp"
+                app:srcCompat="@drawable/fort"
+                android:background="@drawable/states"
+                android:paddingTop="6dp"
+                android:layout_marginStart="-10dp"
+                android:paddingBottom="6dp"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp">
+            </ImageView>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:textColor="#123"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:layout_marginEnd="30sp"
+                android:layout_marginStart="-41dp"
+                android:text="Fort"
+                android:layout_marginTop="64dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="end"
+                android:layout_marginRight="20sp"
+                tools:ignore="RtlCompat">
+
+            </TextView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp">
+
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/map1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/jammu"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.278"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.14">
+
+        </Button>
+
+        <Button
+            android:id="@+id/himachal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:alpha="0"
+            android:color="#66FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.318"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.229">
+
+        </Button>
+
+        <Button
+            android:id="@+id/uttarkhand"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.393"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.283">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/punjab"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:alpha="0"
+            android:color="#66FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.26"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.275">
+
+        </Button>
+
+        <Button
+            android:id="@+id/haryana"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.263"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.324">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/rajesthan"
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:alpha="0"
+            android:color="#66FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.172"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4">
+
+        </Button>
+
+        <Button
+            android:id="@+id/gujarath"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.112"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.527">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/madhya"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:alpha="0"
+            android:color="#66FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.335"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.516">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/maharastre"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.639">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/karnaaka"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.278"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.764">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/kerala"
+            android:layout_width="30dp"
+            android:layout_height="55dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.289"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.927">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/tamil"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.345"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.918">
+
+        </Button>
+
+        <Button
+            android:id="@+id/ap"
+            android:layout_width="55dp"
+            android:layout_height="57dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.414"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.786">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/telangana"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.396"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.68">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/chattisgarh"
+            android:layout_width="25dp"
+            android:layout_height="55dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.578">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/orissa"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.568"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.612">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/jarkhand"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.614"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.51">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/westbengal"
+            android:layout_width="55dp"
+            android:layout_height="45dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.715"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.511">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bihar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.628"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/arunachal"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.932"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.352">
+
+        </Button>
+
+        <Button
+            android:id="@+id/sikkim"
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.707"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.384">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/assam"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.895"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43">
+
+        </Button>
+
+        <Button
+            android:id="@+id/megalaya"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.816"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.456">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/tripura"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.828"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/mizoram"
+            android:layout_width="20dp"
+            android:layout_height="45dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.86"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.52">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/manipur"
+            android:layout_width="24dp"
+            android:layout_height="45dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.901"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.473">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/nagaland"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.926"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/uttar"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4">
+
+        </Button>
+
+        <Button
+            android:id="@+id/goa"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:color="#66FF0000"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.217"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.775">
+
+        </Button>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.893"
+            android:elevation="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.927"
+            app:srcCompat="@drawable/ic_baseline_info_24"
+            tools:ignore="VectorDrawableCompat"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="3dp"
+            android:text="Select a state:"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.009"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</RelativeLayout>

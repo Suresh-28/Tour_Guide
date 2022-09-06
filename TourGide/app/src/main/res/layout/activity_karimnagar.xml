@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".telangana.karimnagar.Karimnagar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <AdapterViewFlipper
+            android:id="@+id/adpterview"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp">
+
+        </AdapterViewFlipper>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textColor="#123"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:text="select category"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:id="@+id/catimage1"
+                android:layout_width="80dp"
+                android:background="@drawable/states"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:id="@+id/catimage2"
+                android:background="@drawable/states"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp">
+            </ImageView>
+            <ImageView
+                android:id="@+id/catimage3"
+                android:layout_width="80dp"
+                android:background="@drawable/states"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp">
+            </ImageView>
+            <ImageView
+                android:id="@+id/catimage4"
+                android:layout_width="80dp"
+                android:background="@drawable/states"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp">
+            </ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/seemore"
+            android:layout_width="match_parent"
+            android:text="@string/see_more"
+            android:textColor="#1058A1"
+            android:textAlignment="viewEnd"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="10dp"
+            android:gravity="end">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="select place"
+            android:textColor="#0B0C0C"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="10dp">
+
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/kawaliwildlife"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:background="@drawable/telangana"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/kunthalawaterfall"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/telangana"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/pocherawaterfall"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/telangana"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/shivaramwildlife"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/telangana"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/mahatmagandhipark"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="#050505"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/telangana"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/jainathtemple"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:background="@drawable/telangana"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/kadilepapahareshwaratemple"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/telangana"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/basarsarswati"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/telangana"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/kadamdam"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:background="@drawable/telangana"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/pranahitawildlife"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/telangana"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/gudemsatyanarayaanaswamy"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/telangana"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/kalwanarsihmaswamy"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:background="@drawable/telangana"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/stjosephchurch"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:background="@drawable/telangana"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/kalaashram"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:background="@drawable/telangana"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/kanakawaterfalls"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:background="@drawable/telangana"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/shoppinginadilabda"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:background="@drawable/telangana"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/gayatriwaterfalls"
+            android:layout_width="match_parent"
+            android:text="select state"
+            android:textColor="#050505"
+            android:background="@drawable/telangana"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </ImageView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

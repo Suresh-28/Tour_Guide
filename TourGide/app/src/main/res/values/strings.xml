@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TourGide</string>
+    <string name="see_more">See More</string>
+    <string name="select_categories">Select Categories</string>
+    <string name="kawaliflipper">kawaliflipper</string>
+
+
+    <string name="description">Kawal Wildlife Sanctuary is one of the important wildlife sanctuaries in Telangana.
+        The Kawal sanctuary houses various animals and several varieties of flora and fauna are seen here.
+        If you want to get a glimpse of wild animals in their natural habitat, then,
+        the Kawal Wildlife Sanctuary is a must see place.
+        This Wildlife Sanctuary gives you a picturesque view of retreat.
+        Every corner of this sanctuary is filled with adventure and thrill.
+        Thousands of tourists visit this secluded animal kingdom to experience the thrills amidst wild beasts of the region.
+        This sanctuary is located in the Adilabad district which is 50 kilometers from Mancherial.
+</string>
+
+    <string name="pressed1">back1</string>
+    <string name="pressed2">back2</string>
+    <string name="pressed3">back3</string>
+    <string name="pressed4">back4</string>
+    <string name="pressed5">back4</string>
+    <string name="pressed6">back4</string>
+    <string name="pressed7">back4</string>
+    <string name="pressed8">back4</string>
+
+
+    <string name="slide1">slide1</string>
+    <string name="slide2">slide1</string>
+    <string name="slide3">slide1</string>
+    <string name="slide4">slide1</string>
+
+    <string name="dot1">dot1</string>
+    <string name="dot2">dot1</string>
+    <string name="dot3">dot1</string>
+    <string name="dot4">dot1</string>
+    <string name="dot5">dot1</string>
+    <string name="dot6">dot1</string>
+    <string name="dot7">dot1</string>
+    <string name="dot8">dot1</string>
+    <string name="dot9">dot1</string>
+    <string name="pack_your_bags">PACK YOUR BAGS</string>
+    <string name="temple">Temple</string>
+    <string name="wildlife">WildLife</string>
+
+</resources>
