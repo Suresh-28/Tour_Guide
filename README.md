@@ -23,12 +23,10 @@ XML
     <td><img src="https://user-images.githubusercontent.com/111943013/208648881-fecdb724-f6f8-484a-b669-11c041f3356e.jpg" width=270 height=480></td>
     <br>
     </tr>
-  
-    <tr>
+   <tr>
      <td><img src="https://user-images.githubusercontent.com/111943013/208648929-690aff24-f151-40d9-907d-800e6a4df18b.jpg" width=270 height=480></td>
     <td><img src="https://user-images.githubusercontent.com/111943013/208649998-c4a90df5-0d1e-4741-a347-b10fab9a2ce9.jpg" width=270 height=480></td>
-  
-  </tr>
+   </tr>
 </table>
 
 
